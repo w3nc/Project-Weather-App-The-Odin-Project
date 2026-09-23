@@ -1,0 +1,37 @@
+{
+  "name": "project-todo-list-the-odin-project",
+  "version": "1.0.0",
+  "description": "Todo List project for The Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3nc/Project-Todo-List-The-Odin-Project"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/w3nc/Project-Todo-List-The-Odin-Project/issues"
+  },
+  "homepage": "https://github.com/w3nc/Project-Todo-List-The-Odin-Project#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.5",
+    "gh-pages": "^6.3.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.8",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.110.3",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0",
+    "webpack-merge": "^6.0.1"
+  },
+  "dependencies": {
+    "date-fns": "^4.4.0"
+  }
+}
