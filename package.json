@@ -1,7 +1,7 @@
 {
-  "name": "project-todo-list-the-odin-project",
+  "name": "Project-Weather-App-The-Odin-Project",
   "version": "1.0.0",
-  "description": "Todo List project for The Odin Project",
+  "description": "Weather App project for The Odin Project",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
@@ -10,16 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/w3nc/Project-Todo-List-The-Odin-Project"
+    "url": "git+https://github.com/w3nc/Project-Weather-App-The-Odin-Project"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "weather",
+    "odin-project"
+  ],
+  "author": "Jesse Pinkman",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/w3nc/Project-Todo-List-The-Odin-Project/issues"
+    "url": "https://github.com/w3nc/Project-Weather-App-The-Odin-Project/issues"
   },
-  "homepage": "https://github.com/w3nc/Project-Todo-List-The-Odin-Project#readme",
+  "homepage": "https://github.com/w3nc/Project-Weather-App-The-Odin-Project#readme",
   "devDependencies": {
     "css-loader": "^7.1.5",
     "gh-pages": "^6.3.0",

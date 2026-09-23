@@ -46,7 +46,7 @@ export default {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Production",
+      title: "Weather App",
       template: "./src/template.html",
     }),
   ],
