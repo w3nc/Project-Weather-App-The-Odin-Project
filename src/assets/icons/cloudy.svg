@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <g class="icon-cloud" fill="#7BBDE8">
+    <circle cx="24" cy="30" r="11"/>
+    <circle cx="40" cy="26" r="13"/>
+    <circle cx="52" cy="34" r="9"/>
+    <rect x="24" y="34" width="28" height="10" rx="5"/>
+  </g>
+  <g class="icon-cloud icon-cloud-back" fill="#49769F" opacity="0.85">
+    <circle cx="18" cy="46" r="10"/>
+    <circle cx="34" cy="42" r="12"/>
+    <circle cx="48" cy="46" r="9"/>
+    <rect x="18" y="48" width="30" height="10" rx="5"/>
+  </g>
+</svg>

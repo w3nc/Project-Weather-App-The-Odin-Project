@@ -1,11 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather App</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="app">
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <svg class="sidebar-logo" aria-hidden="true"></svg>
+        </div>
+
+        <nav aria-label="Main navigation">
+          <ul class="nav-list">
+            <li>
+              <a
+                href="#weather"
+                data-route="weather"
+                class="nav-link is-active"
+              >
+                <svg class="nav-icon" aria-hidden="true"></svg>
+                <span>Weather</span>
+              </a>
+            </li>
+            <li>
+              <a href="#cities" data-route="cities" class="nav-link">
+                <svg class="nav-icon" aria-hidden="true"></svg>
+                <span>Cities</span>
+              </a>
+            </li>
+            <li>
+              <a href="#map" data-route="map" class="nav-link">
+                <svg class="nav-icon" aria-hidden="true"></svg>
+                <span>Map</span>
+              </a>
+            </li>
+            <li>
+              <a href="#settings" data-route="settings" class="nav-link">
+                <svg class="nav-icon" aria-hidden="true"></svg>
+                <span>Settings</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- MAIN COLUMN -->
+      <div class="main">
+        <!-- topbar is a shell; searchbar is injected by JS -->
+        <header class="topbar"></header>
+
+        <!-- MOUNT POINT -->
+        <main id="view" class="content" aria-live="polite"></main>
+      </div>
+    </div>
+  </body>
 </html>
