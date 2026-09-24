@@ -35,9 +35,5 @@
     "webpack-cli": "^7.2.3",
     "webpack-dev-server": "^6.0.0",
     "webpack-merge": "^6.0.1"
-  },
-  "dependencies": {
-    "@meteocons/svg": "^0.1.0",
-    "date-fns": "^4.4.0"
   }
 }
