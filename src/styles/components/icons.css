@@ -1,0 +1,18 @@
+.weather-icon,
+.weather-icon-big {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+}
+
+.weather-icon { width: 44px; height: 44px; }
+.weather-icon-big { width: 180px; height: 180px; }
+
+.weather-icon svg,
+.weather-icon-big svg { width: 100%; height: 100%; }
+
+.weather-icon.is-missing,
+.weather-icon-big.is-missing { opacity: 0.3; }
+
+.week-item .weather-icon { width: 36px; height: 36px; }
