@@ -1,21 +1,17 @@
 const cache = new Map();
 
 /**
- * Load a weather icon as a raw SVG string.
- * Webpack bundles every file in src/assets/icons at build time.
- * @param {string} name e.g. "clear-day"
+ * @param {string} name
  * @returns {Promise<string>}
  */
 export async function loadIcon(name) {
   if (cache.has(name)) return cache.get(name);
 
-  const promise = import(
-    /* webpackInclude: /\.svg$/ */
-    `../../assets/icons/${name}.svg`
-  )
+  const promise = import(`../../assets/icons/${name}.svg`)
     .then((mod) => mod.default)
     .catch((err) => {
       console.warn(`Icon "${name}" not found, using fallback.`, err);
+      if (name === "cloudy") return "";
       return "";
     });
 
@@ -24,7 +20,6 @@ export async function loadIcon(name) {
 }
 
 /**
- * Find every [data-icon] inside root, load the SVG, and inject it.
  * @param {HTMLElement} root
  */
 export async function hydrateIcons(root) {
