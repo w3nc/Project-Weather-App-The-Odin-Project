@@ -1,11 +1,16 @@
+import { loadSettings } from "../utils/storage.js";
+
+const persisted = loadSettings();
+
 export const state = {
-  city: "Madrid",
-  units: "metric", // "metric" | "us"
-  data: null, // processed weather object
+  route: "weather",
+  city: persisted.defaultCity,
+  units: persisted.units,
+  timeFormat: persisted.timeFormat,
+  reduceMotion: persisted.reduceMotion,
+  data: null,
   loading: false,
   error: null,
-  suggestions: [],
-  suggestionsLoading: false,
 };
 
 export function setState(patch) {
