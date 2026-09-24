@@ -1,5 +1,3 @@
-import { da } from "date-fns/locale";
-
 /**
  * Turn raw Visual Crossing JSON into a stable, app-friendly shape.
  * @param {object} raw
@@ -44,7 +42,7 @@ function pickTodayHours(today) {
 function mapCurrent(c) {
   return {
     temp: c.temp,
-    feelsLike: c.feelsLike,
+    feelsLike: c.feelslike,
     humidity: c.humidity,
     windSpeed: Math.round(c.windspeed),
     windDir: c.winddir,
