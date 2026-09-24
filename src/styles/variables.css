@@ -1,0 +1,56 @@
+:root {
+  --bg-deepest: #001d39;
+  --bg-card: #0a4174;
+  --bg-elevated: #0e4e8c;
+  --surface-2: #49769f;
+  --surface-3: #4e8ea2;
+  --text-muted: #6ea2b3;
+  --accent: #7bbde8;
+  --text: #bdd8e9;
+
+  --bg-hover: rgba(123, 189, 232, 0.08);
+  --border-subtle: rgba(189, 216, 233, 0.08);
+  --border-strong: rgba(123, 189, 232, 0.35);
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 40px;
+
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.75rem;
+  --fs-2xl: 2.5rem;
+  --fs-display: 4rem;
+
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --dur-fast: 150ms;
+  --dur-med: 250ms;
+
+  --sidebar-w: 88px;
+  --topbar-h: 68px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
