@@ -1,5 +1,4 @@
 /**
- * Convert a Celsius value to the display unit and round it.
  * @param {number} celsius
  * @param {"metric" | "us"} units
  * @returns {number}
