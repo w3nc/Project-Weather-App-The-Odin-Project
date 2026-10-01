@@ -29,6 +29,7 @@
 }
 
 .forecast-time {
+  font-family: var(--font-mono);
   font-size: var(--fs-xs);
   color: var(--text-muted);
 }
@@ -37,6 +38,7 @@
   height: 40px;
 }
 .forecast-temp {
+  font-family: var(--font-mono);
   font-size: var(--fs-md);
   font-weight: 600;
 }

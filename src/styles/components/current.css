@@ -28,10 +28,12 @@
   grid-row: 2;
 }
 .current-temp h2 {
+  font-family: var(--font-mono);
   font-size: var(--fs-display);
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1;
-  letter-spacing: -0.03em;
+  color: var(--accent);
+  letter-spacing: -0.02em;
 }
 .current-icon {
   grid-column: 2;

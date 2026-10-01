@@ -1,6 +1,6 @@
 .unit-toggle {
   display: inline-flex;
-  gap: 2px;
+  gap: 4px;
   padding: 4px;
   margin-left: auto;
   background: var(--bg-card);
@@ -8,7 +8,8 @@
 }
 
 .unit-btn {
-  padding: 6px 14px;
+  font-family: var(--font-mono);
+  padding: 8px 16px;
   border-radius: var(--radius-pill);
   color: var(--text-muted);
   font-size: var(--fs-sm);
